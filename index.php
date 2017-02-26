@@ -89,6 +89,8 @@
 				<ul>
 					<li><img src="images/desktop_game.jpg" alt="Desktop display of Bill Murray Match Game"></li>
 					<li><img src="images/desktop_tutorial.jpg" alt="Grow a Garden Responsive Displays"></li>
+					<li><img src="images/desktop_portfolio.jpg" alt="Sarah Billy Portfolio Responsive Displays"></li>
+					<li><img src="images/desktop_group.jpg" alt="DASMYJAM Blog Reproduction Responsive Displays"></li>
 				</ul>
 			</div> <!-- end .my-slider -->
 		</article> 
