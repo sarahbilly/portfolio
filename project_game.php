@@ -1,5 +1,6 @@
 <?php include("header.php"); ?>
-
+	<div class="border-gradient"></div>
+	
 	<header class="page">
 		<div class="page-bg"></div>
 		<a href="index.php"><img src="images/logo.png" alt="Sarah Billy logo" class="logo"></a>
@@ -11,23 +12,17 @@
 	<main id="content">
 
 		<article id="portfolio">
- 			<h1>Bill Murray Match Game</h1>
+ 			<h1>project:<br>
+ 			<span class="project-title">match game</span>
+ 			</h1>
 
- 			<div class="featured">
-				<div class="featuredproject">
-					<h3>Bill Murray Match Game</h3>
-					<div class="featuredbox"></div><!-- end .featured -->
-					<img src="images/bill.png" alt="Bill Murray Match Game">
-				</div> <!-- end .featuredproject -->
-			</div>
-
+ 			<a target="_blank" href="http://sbilly.htpwebdesign.ca/game"><img class="project-display" src="images/desktop_game.jpg" alt="Desktop display of Bill Murray Match Game"></a>
  			<div class="project-container">
  				<div class="project-snapshot">
 		 			<p>This was one of my earlier projects at BCIT, where we were tasked with creating a functional game with Javascript &amp; jQuery. I chose to make a matching game featuring the great Bill Murray, because why not? He's awesome.</p> 
 		 			<p>(This was before we learned responsive web design, so currently this is best viewed on laptop/desktop!)</p>
 	 			</div> <!-- end .project-snapshot -->
 	 			<div class="project-tools">
-	 				<p>TOOLS:</p>
 	 				<ul>
 	 					<li>Javascript</li>
 	 					<li>jQuery</li>
@@ -38,13 +33,18 @@
 	 				</ul>
 	 			</div> <!-- end .project-tools -->
 	 		</div> <!-- end .project-container -->
-
- 			<a target="_blank" href="http://sbilly.htpwebdesign.ca/game">View Live</a> 
+	 		<a target="_blank" href="http://sbilly.htpwebdesign.ca/game">View Live</a>
 		</article>
 
 		<article>
 			<div class="title">
-				<h2>Style Guide</h2>
+				<h2>notes</h2>
+			</div> <!-- end .title -->
+		</article>
+
+		<article>
+			<div class="title">
+				<h2>style guide</h2>
 			</div> <!-- end .title -->
 			<div class="palette">
 				<img src="">
@@ -54,16 +54,17 @@
 			<p>I wanted this game to be a simple, clean design but also wanted it to be fun - this is where Bill Murray comes in. I created the background image and all the matching tiles in Adobe Illustrator, giving them a 'painted' look, with fun colourful backgrounds to make them pop.</p>
 
 			<div class="palette">
-				<img src="../game/images/bill_image_01.png" alt="">
-				<img src="../game/images/bill_image_05.png" alt="">
-				<img src="../game/images/bill_image_08.png" alt="">
+				<img src="../game/images/bill_image_01.png" alt="Example tile from Bill Murray Match Game">
+				<img src="../game/images/bill_image_05.png" alt="Example tile from Bill Murray Match Game">
+				<img src="../game/images/bill_image_08.png" alt="Example tile from Bill Murray Match Game">
 			</div>
 
-			<img src="../game/images/bill_bg.png" alt="">
+			<img class="project-display" src="../game/images/bill_bg.png" alt="Background image from Bill Murray Match Game">
 
 
 		</article>
 
 	</main>
 
-<?php include("footer.php"); ?>
+	<footer class="gradient-bg">
+	<?php include("footer.php"); ?>

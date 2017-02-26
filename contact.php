@@ -1,6 +1,10 @@
 <?php include("header.php"); ?>
+	<div class="diagonal-border fixed"></div>
+	<div class="diagonal-border-2 fixed"></div>
+	<div class="border-gradient"></div>
+
 	<header class="page">
-		<div class="page-bg"></div>
+		<div class="contact-bg"></div>
 		<a href="index.php"><img src="images/logo.png" alt="Sarah Billy logo" class="logo"></a>
 		<nav class="pages-nav">
 			<?php include("nav.php"); ?>
@@ -9,8 +13,8 @@
 
 	<main id="content">
 
-		<article id="contact">
-			<h1>Say hello!</h1>
+		<article id="contact" class="transparent">
+			<h1>contact</h1>
 			<p><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:sarah.billy@gmail.com">sarah.billy@gmail.com</a></p>
 			<div class="social">
 				<a target="_blank" href="http://instagram.com/sarah.yvr"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -52,4 +56,5 @@
 
 	</main>
 
-<?php include("footer.php"); ?>
+	<footer>
+	<?php include("footer.php"); ?>
